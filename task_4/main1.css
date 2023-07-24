@@ -13,9 +13,13 @@
     font-size: 30px;
 
 }
-h1 { color: blueviolet;}
-@media  (max-width: 800px) { 
-body {
-        background-color: light-blue
+
+h1 {
+    color: blueviolet;
 }
+
+@media (max-width: 800px) {
+    body {
+        background-color: light-blue
+    }
 }

@@ -3,7 +3,6 @@ a {
     margin-right: 200;
     background-color: black;
     color: white;
-
 }
 
 .myname {
@@ -11,16 +10,16 @@ a {
 }
 
 .prof {
-    color: aqua
+    color: #4cabd7;
 }
 
 .z_img {
     border-radius: 50%;
-    width: 10%;
+    padding-right: 15px;
+    position: center;
+    width: 15%;
     float: right;
     border: 5px solid darkcyan;
-    /* position: relative; */
-    /* display: inline-block; */
 }
 
 .CBlue,
@@ -29,34 +28,36 @@ h1 {
 }
 
 .tit1 {
-    padding-left: 5px;
+
     background-color: rgb(22, 22, 82);
     /* font-style: initial; */
     color: white;
-    display: inline-table;
+    display: inline-block;
     width: 100%;
     /* margin-bottom: 0%; */
 }
 
 .whitesize {
-    padding: none;
     background-color: black;
     margin-top: 0%;
     padding-top: 0%;
+    height: 30px;
+    font-size: large;
+}
+
+.whitesize dd {
+    display: inline
 }
 
 .flex2,
 .flex3 {
     display: flex;
     flex-direction: row;
-    /* flex-flow: 'wrap'; */
-    /* background-color: rgb(220, 226, 231); */
-    flex: 2;
+
 }
 
 .flex3>div {
     flex: 20px;
-
 }
 
 .right,
@@ -67,8 +68,13 @@ h1 {
 
 body {
     font-family: 'Roboto', sans-serif;
+    padding-left: 15px;
+    font-size: large;
 }
 
+ol {
+    list-style-type: none;
+}
 
 ul {
     list-style-type: "+ ";
@@ -79,7 +85,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 6px;
-    grid-auto-rows: minmax(40px, auto);
+    grid-auto-rows: minmax(30px, auto);
 
 }
 
@@ -95,6 +101,31 @@ ul {
 .ten {
     background-color: gray;
     color: white;
-    border-radius: 15%;
+    border: none 5%;
     font-style: bold;
+}
+
+@media(max-width: 1000px) {
+    body {
+        font-size: small;
+        background-color: white;
+    }
+
+    .whitesize {
+        display: block;
+        font-size: normal;
+    }
+
+    .tit1 {
+        width: 100%;
+        background-color: rgb(22, 22, 82);
+        display: content;
+    }
+
+    .flex2,
+    .flex3 {
+        display: flex;
+        flex-direction: column;
+
+    }
 }
