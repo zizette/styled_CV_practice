@@ -1,0 +1,21 @@
+.flex1 {
+    display: flex;
+    background-color: DodgerBlue;
+
+}
+
+.flex1>div {
+    background-color: DodgerBlue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+}
+h1 { color: blueviolet;}
+@media  (max-width: 800px) { 
+body {
+        background-color: light-blue
+}
+}

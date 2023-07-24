@@ -1,0 +1,100 @@
+a {
+    margin-left: 200px;
+    margin-right: 200;
+    background-color: black;
+    color: white;
+
+}
+
+.myname {
+    color: White;
+}
+
+.prof {
+    color: aqua
+}
+
+.z_img {
+    border-radius: 50%;
+    width: 10%;
+    float: right;
+    border: 5px solid darkcyan;
+    /* position: relative; */
+    /* display: inline-block; */
+}
+
+.CBlue,
+h1 {
+    color: #4cabd7;
+}
+
+.tit1 {
+    padding-left: 5px;
+    background-color: rgb(22, 22, 82);
+    /* font-style: initial; */
+    color: white;
+    display: inline-table;
+    width: 100%;
+    /* margin-bottom: 0%; */
+}
+
+.whitesize {
+    padding: none;
+    background-color: black;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.flex2,
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: 'wrap'; */
+    /* background-color: rgb(220, 226, 231); */
+    flex: 2;
+}
+
+.flex3>div {
+    flex: 20px;
+
+}
+
+.right,
+.left {
+    flex: 20px;
+    padding: 2px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul {
+    list-style-type: "+ ";
+}
+
+.wrapper {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+    grid-auto-rows: minmax(40px, auto);
+
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten {
+    background-color: gray;
+    color: white;
+    border-radius: 15%;
+    font-style: bold;
+}
